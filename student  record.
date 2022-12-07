@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  char name[50];
+  int roll,m1,m2,m3,m4,m5,total;
+  float per;
+  clrscr();
+    
+      printf("\n enter the name=");
+      scanf("%s",&name);
+      printf("\n enter the roll number=");
+      scanf("%d",&roll);
+      printf("enter five subject marks=");
+      sacnf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+ 
+ total=m1+m2+m3+m4+m5;
+ per=toatl/5;
+ 
+      printf("...STUDENT RECORD...");
+      printf("\n name=%d",name");
+      printf("\n roll number=%d",roll);
+      printf("\n total marks=%d,total);
+      printf(\n percentaage=%.2f,per);
+   getch();
+}
