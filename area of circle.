@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int r;
+	float area;
+	printf("\n enter the value of redius=");
+	sacnf("%d",&r);
+	area=3.14*r*r;
+	printf("\n area of circle=%.2f",area);
+	getch();
+	}
