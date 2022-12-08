@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int s,cube;
+  clrscr();
+
+    printf("\n enter the number=");
+    scanf("%d",&s);
+
+    cube=s*s*s;
+
+    printf("\n the cube=%d",cube);
+    getch();
+}
