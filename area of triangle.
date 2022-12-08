@@ -13,6 +13,6 @@ void main()
    
         area= 0.5*b*h;
         
-        printf("\n area of triangle=%d",area);
+        printf("\n area of triangle=%.2f",area);
         getch();
   }
