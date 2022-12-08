@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+     
+     int l,b;
+     float area;
+     clrscr();
+      
+      printf("\n enter the length=");
+      scanf("%d",&l);
+      printf("\n enter the breadth=");
+      scanf("%d",&b);
+      
+        area=l*b;
+        
+        printf("\n area of rectangle=%.2f",area);
+        
+        getch();
+}
+      
