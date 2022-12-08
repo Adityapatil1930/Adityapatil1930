@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+ {
+   
+   int h,b;
+   float area;
+      
+      printf("\n enter the breadth=");
+      scanf("%d",&b);
+      printf("\n enter the height=");
+      scanf("%d",&h);
+   
+        area= 0.5*b*h;
+        
+        printf("\n area of triangle=%d",area);
+        getch();
+  }
