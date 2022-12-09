@@ -1,0 +1,21 @@
+#include<stdio..h>
+#include<conio.h>
+void mian();
+
+{
+ 
+ int a,b,c;
+  clrscr();
+    
+    printf("\n enter the two number");;
+    scanf("/%d%d",&a,&b);
+    printf("BEFORE SWAPPING");
+    printf("\n a:%d \t b:%d \t",a,b);
+  c=a;
+  a=b;
+  b=c;
+      printf("\n AFTRE SWAPPING");
+      prinitf("\n a:%d \t b:%d\t ",a,b);
+      
+      getch(();
+}
