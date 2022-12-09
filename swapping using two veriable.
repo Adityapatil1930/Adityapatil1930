@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b;
+    clrscr();
+
+    printf("\n enter the two number=");
+    scanf("%d%d",&a,&b);
+    printf("\n BEFORE SWAPPING");
+    printf("\n a:%d \t b:%d",a,b);
+  
+  a=a+b;
+  b=a-b;
+  a=a-b;
+
+    printf("\n AFTER SWAPPING");
+    printf("\n a:%d \t b:%d",a,b);
+  
+    getch();
+}
