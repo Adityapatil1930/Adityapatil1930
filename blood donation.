@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a,w;
+  clrscr();
+
+  printf("\n enter the age and wight=");
+  scanf("%d%d",&a,&w);
+   
+   
+   if(a>=18)
+  {
+    if(w>=50)
+  {
+    printf("\n elegiable for blood donating");
+  }
+    else
+  {
+    printf("\n not elegiable for blood donating");
+  }
+
+  getch();
+  
+  }
+}
