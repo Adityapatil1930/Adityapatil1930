@@ -6,7 +6,7 @@ int no;
 clrscr();
 printf("\n enter the number");
 scanf("%d",&no);
-if(no%2=0)
+if(no%2==0)
 {
 printf("\n  the value is even");
 }
