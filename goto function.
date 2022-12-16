@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,ch;
+clrscr();
+printf("...MENU...");
+printf("\n 1.add \n\t2.sub \n\t3.mul \n\tdiv \n\texit");
+printf("\n enter your choice=");
+cade:
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+printf("\n enter the two values for add=");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("\n addition=%d",c);
+break;
+case 2:
+printf("\n enter the two values for sub=");
+scanf("%d%d",&a,&b);
+c=a-b;
+printf("\n sub=%d",c);
+break;
+case 3:
+printf("\n enter the two numbers for mul=");
+scanf("%d%d",&a,&b);
+c=a*b;
+printf("\n mult=%d",c);
+break;
+case 4:
+printf("\n enter the two numbre for div=");;
+scanf("%d%d",&a,&b);
+c=a/b;
+printf("\n div=%d",c);
+break;
+case 5:
+exit (0);
+break;
+default;
+printf("\n invalide choice please enter your choice");
+goto code:
+}
+getch();
+}
+
+
+
+
+
+
+
