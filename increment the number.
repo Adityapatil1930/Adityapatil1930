@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int no=1;
+clrscr();
+while(no<=5)
+{
+printf("\n %d ",no);
+no++;
+}
+getch();
+}
