@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int m1,m2,m3,m4,m5,tot;
+float per;
+clrscr();
+printf("\n enter the five subject marks=");
+scanf("%d,%d,%d,%d,%d",&m1,&m2,&m3,&m4,&m5);
+total=m1+m2+m3+m4+m5;
+per=tot/5.0;
+printf("\n total=%d",tot);
+printf("\n precentage=%f",per);
+if(per>=75 && per<=100)
+{
+printf("\n dist");
+}
+else if(per>65 && pre<75)
+{
+printf("\n grade A");
+}
+else if(per>=55 && per<65)
+{
+printf("\n grade B");
+}
+else if(per>=45 && per<55)
+{
+printf("\n grade C");
+}
+else if(per>=35 && per<45);
+{
+printf("\n greade is pass");
+}
+else
+{
+printf("\n fail");
+}
+getch();
+}
