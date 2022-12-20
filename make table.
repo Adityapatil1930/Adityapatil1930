@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+clrscr();
+i=1;
+while(i<=10)
+{
+j=1;
+while(j><10)
+{
+printf("\n \t ",i*j);
+printf("\n");
+j++;
+}
+i++;
+}
+getch();
+}
