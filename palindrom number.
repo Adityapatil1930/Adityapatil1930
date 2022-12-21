@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<onio.h>
+void main()
+{
+int no,rem,rev=0,p;
+clrscr();
+printf("\n enter the number=");
+scanf("%d",&no);
+p=no;
+while(no!=0)
+{
+rem=no%10;
+rev=rev*10+rem;
+no=no/10;
+}
+{
+printf("\n the reverse number is =%d",rev);
+}
+if(p==rev)
+{
+printf("\n it is palindrom number");
+}
+else
+{
+printf("\n it is not palindrom number");
+}
+getch();
+}
