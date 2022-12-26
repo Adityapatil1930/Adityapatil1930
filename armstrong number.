@@ -1,0 +1,24 @@
+#include<stdo.h>
+#include<conio.h>
+void main()
+{
+int rem,sum=0,no,p,c;
+clrscr();
+printf("\n enter the number:");
+scanf("%d",&no);
+p=no;
+while(no!=0)
+{
+rem=no%10;
+c=rem*rem*rem;
+sum=sum+c;
+no=no/10;
+}
+printf("\n it is armstrong number");
+}
+else
+{
+printf("\n it is not armstrong number");
+}
+getch();
+}
