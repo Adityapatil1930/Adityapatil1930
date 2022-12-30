@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int a[5]={10,20,30,40,50},i;
+int a[5],b[5],c,i;
 clrscr();
 printf("\n enter the element of a:");
 i=0;
@@ -23,7 +23,7 @@ i=0;
 while(i<5)
 {
 [i]=a[i]+b[i];
-printf("\n%d+%d",a[i],b[i],c[i]);
+printf("\n%d+%d",a[i],b[i],c);
 i++;
 }
 getch();
